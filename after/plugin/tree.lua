@@ -16,9 +16,6 @@ require("nvim-tree").setup({
     renderer = {
         group_empty = true,
     },
-    filters = {
-        dotfiles = true,
-    },
     diagnostics = {
         enable = true,
         show_on_dirs = true,
