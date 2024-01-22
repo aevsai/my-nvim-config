@@ -141,6 +141,11 @@ _G.packer_plugins = {
     path = "/Users/eaa/.local/share/nvim/site/pack/packer/opt/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["tint.nvim"] = {
+    loaded = true,
+    path = "/Users/eaa/.local/share/nvim/site/pack/packer/start/tint.nvim",
+    url = "https://github.com/levouh/tint.nvim"
+  },
   undotree = {
     loaded = true,
     path = "/Users/eaa/.local/share/nvim/site/pack/packer/start/undotree",

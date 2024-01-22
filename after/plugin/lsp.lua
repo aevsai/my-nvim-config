@@ -8,6 +8,7 @@ lsp_zero.on_attach(function(client, bufnr)
 end)
 
 require'lspconfig'.gopls.setup{}
+require'lspconfig'.sourcekit.setup{}
 
 cmp.setup({
   mapping = cmp.mapping.preset.insert({
